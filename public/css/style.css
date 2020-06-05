@@ -219,3 +219,40 @@ section a:hover {
 	color: rgb(213, 162, 85);
 	padding-top: 3px;
 }
+
+input:focus, #messageBox:focus, #submitBtn:focus {
+    outline: none;
+}
+
+input {
+    text-align: center;
+    color: rgb(213, 162, 85);
+    background-color: rgba(0,0,0,0.3)
+}
+
+input::placeholder, #messageBox::placeholder {
+    color: rgb(213, 162, 85);
+}
+
+#messageBox {
+    padding: 20px 20px;
+    color: rgb(213, 162, 85);
+    background-color: rgba(0,0,0,0.3)
+}
+
+input, #messageBox {
+    margin: 10px;
+    width: 380px;
+}
+
+#submitBtn, #takkBtn {
+    margin: 20px;
+    outline: none;
+    color: white;
+    border: 1px solid rgb(213, 162, 85);
+    background-color: rgb(213, 162, 85);
+}
+
+#takkBtn a {
+    color: rgba(0,0,0,0.3)
+}
