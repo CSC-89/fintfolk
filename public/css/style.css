@@ -15,16 +15,18 @@ body {
 
 #mainNavbar .navbar-brand {
     font-weight: 700;
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
 
 }
 
 #mainNavbar:active {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
+
 }
 
 #mainNavbar .nav-link:hover {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
+
 }
 /**/
 
@@ -32,7 +34,7 @@ body {
 /* POPUP STYLING */
 #popup {
 	display: none;
-	color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
 	background-color: rgb(40, 41, 52);
 	border: 5px solid rgb(213, 162, 85);
 }
@@ -48,7 +50,7 @@ body {
 
 
 #title {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     margin-top: 5em;
     height: 700px;
     background: url("../img/emmanuel-8vheRi6dbaw-unsplash.jpg");
@@ -64,7 +66,7 @@ body {
 }
 
 #section1 {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     margin-top: 5em;
     height: 700px;
     background: url("../img/james-owen-d1fgJpZiKBQ-unsplash.jpg");
@@ -84,7 +86,7 @@ body {
 .linkToContact {
     display: none;
     background-color: rgba(96, 96, 96, 0.5);
-    border: 3px solid rgb(213, 162, 85);
+    border: 3px solid rgb(255, 169, 108);
     text-align: center;
     font-size: 1rem;
     width: 90%;
@@ -93,16 +95,16 @@ body {
 }
 
 div a {
-    color:rgb(213, 162, 85);
+    color:rgb(255, 169, 108);
     font-size: 20px;
 }
 
 div a:hover {
-    color:rgb(213, 162, 85);
+    color:rgb(255, 169, 108);
 }
 
 #section2 {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     margin-top: 5em;
     height: 700px;
     background: url("../img/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg");
@@ -112,14 +114,14 @@ div a:hover {
 
 #content2 {
     background-color: rgba(96, 96, 96, 0.5);
-    border: 3px solid rgb(213, 162, 85);
+    border: 3px solid rgb(255, 169, 108);
     text-align: center;
     width: 90%;
     margin-top: 10%;
 }
 
 #section3 {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     margin-top: 5em;
     height: 700px;
     background: url("../img/nick-karvounis-wnuHCwLJDqY-unsplash.jpg");
@@ -129,14 +131,14 @@ div a:hover {
 
 #content3 {
     background-color: rgba(96, 96, 96, 0.5);
-    border: 3px solid rgb(213, 162, 85);
+    border: 3px solid rgb(255, 169, 108);
     text-align: center;
     width: 90%;
     margin-top: 10%;
 }
 
 #section4 {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     margin-top: 5em;
     height: 700px;
     background: url("../img/alasdair-elmes-ULHxWq8reao-unsplash.jpg");
@@ -147,7 +149,7 @@ div a:hover {
 
 #contactBox {
     background-color: rgba(96, 96, 96,0.6);
-    border: 3px solid rgb(213, 162, 85);
+    border: 3px solid rgb(255, 169, 108);
     text-align: center;
     font-size: 0.6em;
     width: 90%;
@@ -162,7 +164,7 @@ div a:hover {
 
 hr {
     width: 40%;
-    background-color: rgb(213, 162, 85); 
+    background-color: rgb(255, 169, 108); 
 }
 
 .contentHeader {
@@ -195,7 +197,7 @@ section a {
     background-color: rgba(0,0,0,0.3);
     width: fit-content;
     font-size: 1.3rem;
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
 }
 
 section a:hover {
@@ -203,7 +205,7 @@ section a:hover {
 }
 
 .footerStyle {
-    color: rgb(213, 162, 85, 0.8);
+    color: rgb(255, 169, 108);
     line-height: 50px;
 }
 
@@ -216,7 +218,7 @@ section a:hover {
 }
 
 .fa-facebook-square {
-	color: rgb(213, 162, 85);
+	color: rgb(255, 169, 108);
 	padding-top: 3px;
 }
 
@@ -226,17 +228,17 @@ input:focus, #messageBox:focus, #submitBtn:focus {
 
 input {
     text-align: center;
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     background-color: rgba(0,0,0,0.3)
 }
 
 input::placeholder, #messageBox::placeholder {
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
 }
 
 #messageBox {
     padding: 20px 20px;
-    color: rgb(213, 162, 85);
+    color: rgb(255, 169, 108);
     background-color: rgba(0,0,0,0.3)
 }
 
@@ -249,8 +251,9 @@ input, #messageBox {
     margin: 20px;
     outline: none;
     color: white;
-    border: 1px solid rgb(213, 162, 85);
-    background-color: rgb(213, 162, 85);
+    border: 1px solid rgb(255, 169, 108);
+    background-color: rgb(255, 169, 108);
+    color: black;
 }
 
 #takkBtn a {
