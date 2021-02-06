@@ -4,6 +4,8 @@ var bodyParser = require('body-parser')
 var jquery = require('jquery')
 var app = express()
 
+let port = 3000;
+
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("public"))
@@ -84,6 +86,6 @@ app.post("/contact", (req, res) => {
 
 //SERVER START
 
-app.listen(3000, () => {
-	console.log("Server Up")
+app.listen(port, () => {
+	console.log("APP listening on PORT:" + port)
 })
