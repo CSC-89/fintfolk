@@ -3,10 +3,13 @@ var ejs = require('ejs')
 var bodyParser = require('body-parser')
 var jquery = require('jquery')
 var app = express()
+let path = require('path')
 
 let port = 3000;
 
 app.set('view engine', 'ejs')
+app.set('views', path.join(__dirname, '/views'))
+
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("public"))
 
